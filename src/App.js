@@ -1,9 +1,13 @@
 import "./App.css";
 
+import Beranda from "./components/Beranda";
+import Portofolio from "./components/Portofolio";
+import Header from "./components/Header";
 function App() {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <Header />
+      <Beranda />
     </div>
   );
 }
