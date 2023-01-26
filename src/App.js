@@ -1,9 +1,14 @@
 import "./App.css";
 
+import NavBar from './component/NavBar';
+import Contact from './component/Contact';
+
 function App() {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <NavBar />
+      <br/>
+      <Contact />
     </div>
   );
 }
